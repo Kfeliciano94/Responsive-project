@@ -1,0 +1,88 @@
+body {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  background: black;
+}
+
+.container {
+  max-width: 1400px;
+}
+
+section {
+  max-width: 100%;
+  padding: 100px;
+  margin: 0 auto;
+}
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://images.unsplash.com/photo-1601153211050-ae2e1fa428d7?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FtaW5nJTIwd2FsbHBhcGVyfGVufDB8fDB8fHww");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  padding: 200px 0;
+}
+
+header h1 {
+  font-size: 90px;
+  font-weight: 600;
+  line-height: 1;
+  margin: 30px 0;
+}
+
+header h2 {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+
+header h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+
+header a {
+  font-size: 12px;
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+  display: inline-block;
+  margin-top: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 16px 32px;
+}
+
+.grid {
+    display:grid;
+}
+
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+
+main h3 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: white;
+}
+
+main h4 {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+  color: white;
+}
+
+main p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: white;
+}
