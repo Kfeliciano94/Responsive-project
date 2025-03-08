@@ -127,9 +127,10 @@ header a {
   padding: 16px 32px;
 }
 
-img-responsive {
-  max-width: 100%;
-  display: block;
+main {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  color: white;
+  padding: 100px 0;
 }
 
 main h2 {
@@ -179,4 +180,75 @@ main a {
   text-transform: uppercase;
   text-decoration: none;
   padding: 16px 32px;
+}
+
+footer {
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://images.unsplash.com/photo-1601153211050-ae2e1fa428d7?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FtaW5nJTIwd2FsbHBhcGVyfGVufDB8fDB8fHww");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  opacity: 0.7;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  color: white;
+  opacity: 0.7;
+}
+
+@media (max-width: 960px) {
+  header {
+    padding: 60px 0;
+  }
+
+  header h1 {
+    font-size: 48px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+
+  header h3 {
+    font-size: 12px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+
+  section {
+    padding: 30px;
+  }
+
+  .card-header {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
+  }
 }
